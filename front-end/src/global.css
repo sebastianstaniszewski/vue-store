@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  z-index: 100;
+  background-color: #fff;
+}
+
+button {
+  background-color: black;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  outline: 0;
+  padding: 12px 16px;
+}
+
+.logotype {
+  width: 150px;
+
+  @media (max-width: 768px) {
+    width: 75px;
+  }
+}
+
+.logotype--sm {
+  width: 75px;
+
+  @media (max-width: 768px) {
+    width: 45px;
+  }
+}
+
+.logotype--xsm {
+  width: 60px;
+}
+
+.logotype--xxsm {
+  width: 20px;
+  height: fit-content;
+}
+
+
+
+
+
+
