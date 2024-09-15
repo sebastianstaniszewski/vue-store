@@ -19,6 +19,10 @@
     </div>
   </div>
 
+  <router-link :to="{ name: 'products' }">
+    <button class="mb-8 w-60 md:w-96 block mx-auto">Go to store</button>
+  </router-link>
+
   <div class="">
     <h2 class="">Backend stack</h2>
     <hr>
@@ -29,10 +33,6 @@
       <img class="logotype logotype--sm" :src="express" alt="logotype">
     </div>
   </div>
-
-  <router-link :to="{ name: 'products' }">
-    <button class="mb-8 w-60 md:w-96 block mx-auto">Go to store</button>
-  </router-link>
 
 </template>
 
